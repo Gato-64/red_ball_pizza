@@ -1,0 +1,106 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Brandon Perez
+    Date: 08/11/2024
+    File: other.css
+ */
+
+* {
+  font-family: sans-serif;
+}
+
+header img {
+  width: 100%;
+}
+
+body {
+  background-image: url(parlor.jpg);
+}
+
+main {
+  background-color: white;
+  border-left: solid rgba(154, 20, 23, 1) 5px;
+  border-right: solid rgba(154, 20, 23, 1) 5px;
+}
+
+main article {
+  padding: 5px;
+}
+
+aside {
+  padding: 10px;
+}
+
+aside ul {
+  box-shadow: inset;
+}
+
+aside > h1 {
+  font-weight: bold;
+}
+
+aside ul li {
+  border: solid 5px rgba(154, 20, 23, 1);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to right, #c4c4c4, #d3737a);
+  padding: 5px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.351);
+}
+
+section div h1 {
+  padding: 5px;
+}
+
+section div p:last-child {
+  padding: 15px;
+}
+
+.horizontal ul li {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.vertical {
+  display: flex;
+}
+
+.vertical ul li {
+  background-image: linear-gradient(to right, #b21732, rgba(255, 0, 0, 0));
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.vertical ul {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.vertical ul li a {
+  color: white;
+  padding-right: 45px;
+}
+
+#deals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#deals div {
+  border: dashed 5px rgba(154, 20, 23, 1);
+  margin: 5px;
+}
+
+#deals div:nth-child(odd) {
+  background-color: #fec2c6;
+}
+
+#deals div:nth-child(even) {
+  background-color: white;
+}
+
+#deals div p:nth-child(3) {
+  font-weight: bold;
+}
